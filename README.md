@@ -1,4 +1,4 @@
-EX3: Text Mining
+EX4: Text Mining
 ================
 
 Preprocessing
