@@ -22,7 +22,8 @@ Final step was adding word count in query, the result got much better, around ~0
 **Final Rank: 1248**
 
 
-**R Code**
+R Code
+------
 
 *loading data
 ```{r}
@@ -90,9 +91,16 @@ Newsubmission = data.frame(id=test$id, prediction=results)
 write.csv(Newsubmission, "model.csv", row.names=F) 
 ```
 
-**Rank**
-![rank](rank.png)
+Ranks
+-----
 
-**Model**
-![model](model.png)
-Full .csv file here.
+![rank1](1.jpg)
+![rank2](2.jpg)
+![rank3](3.jpg)
+
+
+Model
+-----
+
+(Final model)
+[Full .csv file here](model5.csv)
