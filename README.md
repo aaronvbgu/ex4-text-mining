@@ -80,8 +80,7 @@ train$median_relevance <- factor(train$median_relevance)
 ### Model creation
 library(randomForest)
 # Note: jaccard_description is not good- causing an error in randomforest
-model <- randomForest(median_relevance ~ jw_title + jw_description + jaccard_title + osa_title + osa_description,                               data=train,
-                      ntree=100)
+model <- randomForest(median_relevance ~ jw_title + jw_description + jaccard_title + osa_title + osa_description, data=train, ntree=100)
 
 ### Classification for evaluation
 results <- predict(model1, newdata = test)
